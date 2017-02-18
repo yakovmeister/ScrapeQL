@@ -15,6 +15,12 @@ Probably the most stupid idea ever, a scraping tool with a bit of a familiarity 
 ### Versions: (currently it is still incomplete)
 
 
+#### 1.0.0-alpha2
+
+- removed empty tags
+- sql syntax based operators are removed from Struct.php
+- applied regex tweak, still didn't improve accuracy 
+- Test File updated
 
 #### 1.0.0-alpha1 
 
