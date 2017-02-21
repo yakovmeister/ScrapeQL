@@ -203,7 +203,7 @@ class Struct
 	public function constructPattern()
 	{
 		// Grammar for full HTML tags
-		$grammar = "/(<(\/)?{tag}(.*{attributes})?(.*)?(\/)?>)(.*)?(<\/(.*)?{tag}(.*)?>)?/";
+		$grammar = "/(<(\/)?{tag}(.*{attributes})(.*)?(\/)?>)(.*)?(<\/(.*)?{tag}(.*)?>)?/";
 	
 		$criteriaSize = count($this->getCriteria()) - 1;
 
